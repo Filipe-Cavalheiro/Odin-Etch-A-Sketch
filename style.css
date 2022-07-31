@@ -1,0 +1,91 @@
+html, body{
+    margin: 0;
+}
+
+.everything{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    color: #f8f4bc;
+    background-color: red;
+    text-align: center;
+    padding: 15px;
+    width: 200px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.drawingBoard{
+    border: 10px solid red;
+    border-radius: 15px;
+    width: 640px;
+    height: 640px;
+    display: grid;
+}
+
+.options{
+    width: 640px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sliderGroup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.clearBtn{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: green;
+}
+
+.currentColor{
+    appearance: none;
+    background-color: transparent;
+    width: 75px;
+    height: 75px;
+    border: none;
+}
+
+.currentColor::-webkit-color-swatch{
+    border-radius: 50%;
+    border: 7px solid #000000;
+}
+
+.currentColor::-moz-color-swatch{
+    border-radius: 50%;
+    border: 7px solid #000000;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #dba82e;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #f8f4bc;
+    font-size: 20px;
+}
